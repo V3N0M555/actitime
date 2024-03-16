@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="TestA(failed)">
+    <classes>
+      <class name="com.actitime.testscript.ProjectModule">
+        <methods>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="createProject"/>
+        </methods>
+      </class> <!-- com.actitime.testscript.ProjectModule -->
+    </classes>
+  </test> <!-- TestA(failed) -->
+</suite> <!-- Failed suite [Suite] -->
